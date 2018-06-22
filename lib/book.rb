@@ -44,6 +44,11 @@ Harry_Potter.turn_page
 
 
 
+
+
+
+
+
 class Book
 
   def initialize(title)
@@ -82,3 +87,11 @@ class Book
   end
 
 end
+def turn_page
+  puts "Flipping the page .....wow, you read fast!"
+end
+end
+
+Harry_Potter = Book.new("Harry Potter and the Sorcerer's stone")
+Harry_Potter.turn_page
+
