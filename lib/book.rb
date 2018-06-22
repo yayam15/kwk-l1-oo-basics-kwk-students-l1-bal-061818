@@ -33,4 +33,10 @@ class Book
     @genre
   end
 
-  
+  def turn_page 
+    puts "Flipping the page .....wow, you read fast!"
+  end
+end
+
+Harry_Potter = Book.new("Harry Potter and the Sorcerer's stone")
+Harry_Potter.turn_page
