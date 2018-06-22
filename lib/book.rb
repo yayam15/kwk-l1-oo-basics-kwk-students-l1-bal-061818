@@ -46,7 +46,7 @@ Harry_Potter.turn_page
 
 
 
-
+#copied one
 
 
 class Book
@@ -94,4 +94,3 @@ end
 
 Harry_Potter = Book.new("Harry Potter and the Sorcerer's stone")
 Harry_Potter.turn_page
-
