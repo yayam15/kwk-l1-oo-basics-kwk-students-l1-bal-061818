@@ -17,12 +17,12 @@ class Book
     @author
   end
 
-  def page_number = (pages)
-    @page_number = pages
+  def page_count = (pages)
+    @page_count = pages
   end
 
-  def page_number
-    @page_number
+  def page_count
+    @page_count
   end
 
   def genre = (genre)
@@ -33,7 +33,7 @@ class Book
     @genre
   end
 
-  def turn_page 
+  def turn_page
     puts "Flipping the page .....wow, you read fast!"
   end
 end
