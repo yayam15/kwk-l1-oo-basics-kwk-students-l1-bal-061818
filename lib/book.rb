@@ -50,7 +50,7 @@ Harry_Potter.turn_page
 
 
 class Book
-
+  
   def initialize(title)
     @title = title
   end
